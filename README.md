@@ -63,14 +63,16 @@ Y_pred=scaler_Y.inverse_transform(Y_pred)
 Y_test=scaler_Y.inverse_transform(Y_test)
 mse=mean_squared_error(Y_test, Y_pred)
 print("Mean Squared Error:",mse)
-print("\nPredictions:\n",Y_pred[:5]
+print("\nPredictions:\n",Y_pred[:5])
+print("Name: Vedagiri Indu Sree")
+print("Reg no:212223230236")
+
 ```
 ## Output:
 
 ![image](https://github.com/user-attachments/assets/3202da81-9189-4597-b71d-2588eb00e44d)
 
-![image](https://github.com/user-attachments/assets/d19609d7-f228-4b57-ba4d-840e47b1d10c)
-
+![image](https://github.com/user-attachments/assets/29b3d3e3-b90f-4db0-9525-2f239461156b)
 
 ## Result:
 Thus the program to implement the multivariate linear regression model for predicting the price of the house and number of occupants in the house with SGD regressor is written and verified using python programming.
